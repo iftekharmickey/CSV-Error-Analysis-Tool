@@ -39,6 +39,6 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 ## Author
 
-This tool was developed by Iftekhar Mahmud Tahir as an automation project for Infozillion Teletech BD Ltd.
+This tool was developed by Iftekhar Tahir as an automation project for Infozillion Teletech BD Ltd.
 
 If you have any questions or feedback, feel free to contact me at iftekhar.tahir@proton.me.
