@@ -1,7 +1,7 @@
 # CSV-Error-Analysis-Tool
 
 ## Overview
-The CSV Error Analysis Tool is a Python script that automates the process of analyzing error occurrences in CSV data. This tool was developed to simplify and streamline error analysis tasks at Infozillion Teletech BD Ltd.
+The CSV Error Analysis Tool is a Python script that automates the process of analyzing error occurrences in CSV data. This tool was developed to simplify and streamline error analysis tasks at [Infozillion Teletech BD Ltd](https://www.infotelebd.com/).
 
 ### Purpose
 In the daily workflow of professionals at Infozillion Teletech BD Ltd, dealing with CSV data is common. These CSV files often contain error codes, and analyzing these error occurrences manually can be time-consuming and error-prone.
