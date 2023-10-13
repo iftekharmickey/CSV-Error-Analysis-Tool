@@ -26,4 +26,7 @@ To use the CSV Error Analysis Tool, you'll need Python 3.x and the [pandas](http
 
    ```bash
    cd /path/to/csv-error-analysis-tool
-   csv_error_analyzer.py
+   python csv_error_analyzer.py
+
+   - Follow the on-screen prompts to provide the input CSV file name and the desired output CSV file name.
+
