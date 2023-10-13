@@ -22,12 +22,13 @@ To use the CSV Error Analysis Tool, you'll need Python 3.x and the [pandas](http
 
 2. **Running the Script**:
    - Clone or download this repository to your local machine.
-   - Open your terminal or command prompt and navigate to the repository directory.
+   - Open your terminal or command prompt and navigate to the repository directory. 
 
    ```bash
    cd /path/to/csv-error-analysis-tool
    python csv_error_analyzer.py
    ```
+
    - Follow the on-screen prompts to provide the input CSV file name and the desired output CSV file name.
 
 ## License
