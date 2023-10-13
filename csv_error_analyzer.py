@@ -14,7 +14,7 @@ aggregator_totals = defaultdict(int)
 # Loop through the DataFrame rows
 for _, row in data.iterrows():
     if pd.isna(row['message']):
-        print("Found a row with missing 'message'. Skipping.")
+        print("Found a row with a missing 'message'. Skipping.")
         continue
 
     # Split the 'message' field by '|' delimiter
@@ -42,7 +42,11 @@ agg_df.reset_index(drop=True, inplace=True)
 # Add a "Total" column by merging with the aggregator totals
 agg_df['Total'] = agg_df['Aggregator'].map(aggregator_totals)
 
-# Save the result to a new CSV file
+# Calculate and add the Grand Total as a new row
+grand_total = agg_df['Total'].sum()
+agg_df.loc[len(agg_df)] = ['Grand Total'] + [agg_df[column].sum() for column in agg_df.columns[1:]]
+
+# Prompt the user for the output file name
 output_file = input("Enter the output CSV file name: ")
 agg_df.to_csv(output_file, index=False)
 
