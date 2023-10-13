@@ -33,7 +33,7 @@ To use the CSV Error Analysis Tool, you'll need Python 3.x and the [pandas](http
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE]([LICENSE](https://github.com/iftekharmickey/CSV-Error-Analysis-Tool/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE]([LICENSE](https://github.com/iftekharmickey/CSV-Error-Analysis-Tool/blob/main/LICENSE)) file for details.
 
 ## Author
 
