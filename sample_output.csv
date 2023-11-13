@@ -1,0 +1,7 @@
+Aggregator,Error1,Error2,Error5,Error3,Total
+Aggregator3,1.0,1.0,0.0,0.0,2
+Aggregator1,1.0,0.0,1.0,0.0,2
+Aggregator5,1.0,0.0,0.0,1.0,2
+Aggregator2,0.0,1.0,1.0,0.0,2
+Aggregator4,0.0,0.0,1.0,1.0,2
+Grand Total,3.0,2.0,3.0,2.0,10
